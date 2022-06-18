@@ -1,0 +1,99 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: linear-gradient(#fb009f,#fe0202);
+	text-align: center;
+	padding-top: 30px;
+	color: #fff;
+	font-size: 1.5em;
+}
+.box {
+	height: 510px;
+	width: auto;
+	background-color: #fff;
+	margin: 20px 420px;
+	border-radius: 5px;
+	text-align: center;
+}
+.box h3 {
+	color: black;
+	padding: 50px 0px;
+	font-family:  cursive;
+}
+.place_holder input {
+	height: 2.7em;
+	width: 300px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+#log_in {
+	border: none;
+	padding: 6px 138px;
+	background-color: blue;
+	color: #fff;
+	margin: 0px;
+	border-radius: 3px;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+.option_part p{
+	color: grey;
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.option_part p:before {
+	position: absolute;
+	content: '';
+	width: 30%;
+	height: 1px;
+	background: black;
+	left: 0;
+	top: 40%;
+	transform: translateY(-50%);
+	border-radius: 50px;
+	margin-left: 55px;
+}
+.option_part p:after {
+	position: absolute;
+	content: '';
+	width: 30%;
+	height: 1px;
+	background: black;
+	right: 0;
+	top: 40%;
+	transform: translateY(-50%);
+	border-radius: 50px;
+	margin-right: 55px;
+}
+.option_part {
+	color: black;
+}
+.fb_link a {
+	color: navy;
+	text-decoration: none;
+}
+.forget_id a {
+	color: blue;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: ui-monospace;
+}
+.sign_up p {
+	color: black;
+	border-style: ridge;
+	padding: 15px 10px;
+	width: 370px;
+	margin: 30px 15px;
+	font-family: ui-monospace;
+}
+.sign_up a {
+	text-decoration: none;
+	padding-left: 5px;
+	color: blue;
+	font-family: ui-monospace;
+}
+
